@@ -295,5 +295,6 @@ Thank you for helping make **Plizent** better.
 
 - Read the [README](README.md)
 - Follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Get help through [SUPPORT.md](SUPPORT.md)
 
 Thank you for helping make **Plizent** better!

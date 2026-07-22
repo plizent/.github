@@ -8,7 +8,7 @@ Before participating in our community, please read and follow our [Code of Condu
 
 Every contribution helps improve our projects and community.
 
-To learn more about our organization, goals, and projects, see our [Organization Profile](profile/README.md).
+To learn more about our organization, goals, and projects, see our [Organization Profile](profile/README.md). For information about how technical decisions are made and how the organization is managed, see our [Governance](GOVERNANCE.md).
 
 ---
 
@@ -282,6 +282,14 @@ Please do **not** report security vulnerabilities through public GitHub issues o
 If you discover a security issue, follow the reporting process described in [SECURITY.md](SECURITY.md).
 
 Responsible disclosure helps protect our users while a fix is being prepared.
+
+---
+
+## Governance & Decision-Making
+
+Plizent values open collaboration while maintaining clear and consistent technical direction.
+
+For information about how technical decisions are made, how maintainers are selected, and how the organization is governed, see [GOVERNANCE.md](GOVERNANCE.md).
 
 ---
 

@@ -30,6 +30,7 @@ This repository serves as the central source for GitHub organization standards u
 ├── .gitignore             # Specifies files and directories that Git should ignore.
 ├── CODE_OF_CONDUCT.md     # Defines community standards, expected behavior, and the process for reporting misconduct.
 ├── CONTRIBUTING.md        # Explains how to contribute, including the development workflow, coding standards, and pull request process.
+├── GOVERNANCE.md          # Defines the project's governance model, including roles, responsibilities, decision-making, and leadership processes.
 ├── LICENSE                # Specifies the legal terms and conditions under which the repository's content can be used, modified, and distributed.
 ├── README.md              # Provides an overview of the repository, its purpose, structure, and available community resources.
 ├── SECURITY.md            # Explains how to report security vulnerabilities and outlines the project's security policy.

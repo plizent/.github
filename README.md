@@ -39,7 +39,7 @@ This repository serves as the central source for GitHub organization standards u
 | Document | Description |
 |----------|-------------|
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
-
+| [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and development workflow |
 
 ## License
 

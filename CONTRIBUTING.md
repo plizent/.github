@@ -275,6 +275,16 @@ Maintainers may request changes before merging.
 
 ---
 
+## Security
+
+Please do **not** report security vulnerabilities through public GitHub issues or discussions.
+
+If you discover a security issue, follow the reporting process described in [SECURITY.md](SECURITY.md).
+
+Responsible disclosure helps protect our users while a fix is being prepared.
+
+---
+
 ## License
 
 By contributing, you agree that your work will be licensed under this repository's [LICENSE](LICENSE).
@@ -295,6 +305,7 @@ Thank you for helping make **Plizent** better.
 
 - Read the [README](README.md)
 - Follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+- Report security issues in [SECURITY.md](SECURITY.md)
 - Get help through [SUPPORT.md](SUPPORT.md)
 
 Thank you for helping make **Plizent** better!

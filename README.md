@@ -32,6 +32,7 @@ This repository serves as the central source for GitHub organization standards u
 ├── CONTRIBUTING.md        # Explains how to contribute, including the development workflow, coding standards, and pull request process.
 ├── LICENSE                # Specifies the legal terms and conditions under which the repository's content can be used, modified, and distributed.
 ├── README.md              # Provides an overview of the repository, its purpose, structure, and available community resources.
+├── SECURITY.md            # Explains how to report security vulnerabilities and outlines the project's security policy.
 └── SUPPORT.md             # Lists the available support channels and explains how to get help or ask questions.
 ```
 
@@ -41,6 +42,7 @@ This repository serves as the central source for GitHub organization standards u
 |----------|-------------|
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and development workflow |
+| [SECURITY.md](SECURITY.md) | Security policy and vulnerability reporting process |
 | [SUPPORT.md](SUPPORT.md) | Support channels and how to get help |
 
 ## License

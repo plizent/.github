@@ -25,12 +25,13 @@ This repository serves as the central source for GitHub organization standards u
 ├── profile/
 │   └── README.md          # Displays the organization's public profile on the GitHub organization page.
 │
-├── .editorconfig          # Defines consistent coding styles (indentation, line endings, charset, whitespace) across editors and IDEs.
+├── .editorconfig          # Defines consistent coding styles (indentation, line endings, charset, and whitespace) across editors and IDEs.
 ├── .gitattributes         # Configures Git behavior such as line endings, text normalization, diff, and merge settings.
-├── .gitignore             # Specifies files and directories that Git should ignore and not track.
+├── .gitignore             # Specifies files and directories that Git should ignore.
 ├── CODE_OF_CONDUCT.md     # Defines community standards, expected behavior, and the process for reporting misconduct.
+├── CONTRIBUTING.md        # Explains how to contribute, including the development workflow, coding standards, and pull request process.
 ├── LICENSE                # Specifies the legal terms and conditions under which the repository's content can be used, modified, and distributed.
-└── README.md              # Provides an overview of the repository, its purpose, structure, and contribution guidance.
+└── README.md              # Provides an overview of the repository, its purpose, structure, and available community resources.
 ```
 
 ## Related Documentation

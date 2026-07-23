@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+
+title: Plizent Community Health Files
+
+message: >-
+  If you use or reference Plizent's community health files,
+  governance model, or contributor guidelines, please cite this repository.
+
+type: software
+
+authors:
+  - family-names: Tejani
+    given-names: Fenil
+    orcid: https://orcid.org/0009-0000-3563-7800
+
+repository-code: https://github.com/plizent/.github
+
+url: https://github.com/plizent
+
+abstract: >-
+  Organization-wide community health files, governance policies,
+  contribution guidelines, and collaboration standards for the
+  Plizent open-source organization.
+
+keywords:
+  - community-health
+  - github
+  - open-source
+  - governance
+  - contributing
+  - security
+  - documentation
+  - software-engineering
+
+license: Apache-2.0

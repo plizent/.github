@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: Community Discussions
+    url: https://github.com/orgs/plizent/discussions
+    about: Ask questions, share ideas, and discuss topics with the community.
+
+  - name: Support
+    url: https://github.com/plizent/.github/blob/main/SUPPORT.md
+    about: Get help using Plizent projects and learn about available support channels.
+
+  - name: Security Policy
+    url: https://github.com/plizent/.github/blob/main/SECURITY.md
+    about: Learn how to report security vulnerabilities responsibly.

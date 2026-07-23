@@ -1,0 +1,60 @@
+name: Documentation
+description: Report documentation issues or suggest improvements.
+title: "[Docs]: "
+labels:
+  - documentation
+type: documentation
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve our documentation.
+
+        Clear and accurate documentation helps everyone in the community.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before You Begin
+      description: Please confirm the following.
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: I have checked the current documentation.
+          required: true
+        - label: I agree to follow this project's Code of Conduct.
+          required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Documentation Page
+      description: Which page or file needs improvement?
+      placeholder: README.md, CONTRIBUTING.md, docs/getting-started.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What Needs Improvement?
+      description: Describe the documentation issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Improvement
+      description: How should the documentation be improved?
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Include links, screenshots, or references if applicable.
+    validations:
+      required: false

@@ -22,19 +22,26 @@ This repository serves as the central source for GitHub organization standards u
 
 ```text
 .github/
-├── profile/
-│   └── README.md          # Displays the organization's public profile on the GitHub organization page.
+├── .github/
+│   └── ISSUE_TEMPLATE/
+│       ├── bug_report.yml       # Template for reporting bugs.
+│       ├── config.yml           # Configures the issue template chooser and contact links.
+│       ├── documentation.yml    # Template for reporting documentation improvements.
+│       └── feature_request.yml  # Template for requesting new features.
 │
-├── .editorconfig          # Defines consistent coding styles (indentation, line endings, charset, and whitespace) across editors and IDEs.
-├── .gitattributes         # Configures Git behavior such as line endings, text normalization, diff, and merge settings.
-├── .gitignore             # Specifies files and directories that Git should ignore.
-├── CODE_OF_CONDUCT.md     # Defines community standards, expected behavior, and the process for reporting misconduct.
-├── CONTRIBUTING.md        # Explains how to contribute, including the development workflow, coding standards, and pull request process.
-├── GOVERNANCE.md          # Defines the project's governance model, including roles, responsibilities, decision-making, and leadership processes.
-├── LICENSE                # Specifies the legal terms and conditions under which the repository's content can be used, modified, and distributed.
-├── README.md              # Provides an overview of the repository, its purpose, structure, and available community resources.
-├── SECURITY.md            # Explains how to report security vulnerabilities and outlines the project's security policy.
-└── SUPPORT.md             # Lists the available support channels and explains how to get help or ask questions.
+├── profile/
+│   └── README.md                # Displays the organization's public profile on the GitHub organization page.
+│
+├── .editorconfig                # Defines consistent coding styles (indentation, line endings, charset, and whitespace) across editors and IDEs.
+├── .gitattributes               # Configures Git behavior such as line endings, text normalization, diff, and merge settings.
+├── .gitignore                   # Specifies files and directories that Git should ignore.
+├── CODE_OF_CONDUCT.md           # Defines community standards, expected behavior, and the process for reporting misconduct.
+├── CONTRIBUTING.md              # Explains how to contribute, including the development workflow, coding standards, and pull request process.
+├── GOVERNANCE.md                # Defines the project's governance model, including roles, responsibilities, decision-making, and leadership processes.
+├── LICENSE                      # Specifies the legal terms and conditions under which the repository's content can be used, modified, and distributed.
+├── README.md                    # Provides an overview of the repository, its purpose, structure, and available community resources.
+├── SECURITY.md                  # Explains how to report security vulnerabilities and outlines the project's security policy.
+└── SUPPORT.md                   # Lists the available support channels and explains how to get help or ask questions.
 ```
 
 ## Related Documentation
@@ -45,6 +52,7 @@ This repository serves as the central source for GitHub organization standards u
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and development workflow |
 | [SECURITY.md](SECURITY.md) | Security policy and vulnerability reporting process |
 | [SUPPORT.md](SUPPORT.md) | Support channels and how to get help |
+| [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Organization-wide issue forms and issue template configuration |
 
 ## License
 

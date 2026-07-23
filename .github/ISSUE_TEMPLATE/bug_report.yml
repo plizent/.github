@@ -1,0 +1,103 @@
+name: Bug Report
+description: Report a bug or unexpected behavior.
+title: "[Bug]: "
+labels:
+  - bug
+type: bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report a bug.
+
+        Before submitting, please search existing issues to avoid creating duplicates.
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before You Begin
+      description: Please confirm the following.
+      options:
+        - label: I searched existing issues and discussions.
+          required: true
+        - label: I have read the project's documentation.
+          required: true
+        - label: I agree to follow this project's Code of Conduct.
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Describe the bug clearly and concisely.
+      placeholder: Tell us what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: Tell us how to reproduce the issue.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Run ...
+        4. Observe ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Behavior
+      description: Describe what actually happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include any relevant environment details.
+      placeholder: |
+        - Operating System:
+        - Browser (if applicable):
+        - Project Version:
+        - Runtime / SDK:
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Paste any relevant logs or stack traces.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Add screenshots or screen recordings if they help explain the problem.
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Information
+      description: Add anything else that may help us investigate.
+    validations:
+      required: false

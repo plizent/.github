@@ -31,7 +31,8 @@ This repository serves as the central source for GitHub organization standards u
 │   │   ├── documentation.yml    # Template for documentation improvements.
 │   │   └── feature_request.yml  # Template for requesting new features.
 │   │
-│   └── PULL_REQUEST_TEMPLATE.md # Default pull request template for all repositories.
+│   ├── PULL_REQUEST_TEMPLATE.md # Default pull request template for all repositories.
+│   └── release.yml              # Configures automatically generated GitHub release notes.
 │
 ├── profile/
 │   └── README.md                # Displays the organization's public profile on the GitHub organization page.
@@ -65,6 +66,7 @@ This repository serves as the central source for GitHub organization standards u
 | [SECURITY.md](SECURITY.md) | Security policy and vulnerability reporting process |
 | [SUPPORT.md](SUPPORT.md) | Support channels and how to get help |
 | [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Organization-wide issue forms and template configuration |
+| [.github/release.yml](.github/release.yml) | Configures automatically generated GitHub release notes |
 | [.github/PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) | Default pull request template used across Plizent repositories |
 
 ## License

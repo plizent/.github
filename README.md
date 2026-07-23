@@ -42,6 +42,7 @@ This repository serves as the central source for GitHub organization standards u
 ├── CODE_OF_CONDUCT.md           # Defines community standards and expected behavior.
 ├── CODEOWNERS                   # Defines the default owners responsible for reviewing changes to files in this repository.
 ├── CONTRIBUTING.md              # Explains how to contribute and the development workflow.
+├── FUNDING.yml                  # Configures the organization-wide funding platforms displayed in GitHub's Sponsor button.
 ├── GOVERNANCE.md                # Defines roles, responsibilities, and decision-making.
 ├── LICENSE                      # Specifies the project's licensing terms.
 ├── README.md                    # Provides an overview of this repository.
@@ -56,6 +57,7 @@ This repository serves as the central source for GitHub organization standards u
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
 | [CODEOWNERS](CODEOWNERS) | Defines the default owners responsible for reviewing changes |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and development workflow |
+| [FUNDING.yml](FUNDING.yml) | Configures the funding platforms displayed in GitHub's Sponsor but |
 | [SECURITY.md](SECURITY.md) | Security policy and vulnerability reporting process |
 | [SUPPORT.md](SUPPORT.md) | Support channels and how to get help |
 | [.github/ISSUE_TEMPLATE/](.github/ISSUE_TEMPLATE/) | Organization-wide issue forms and template configuration |

@@ -19,3 +19,10 @@ indent_size = 2
 # Markdown - preserve trailing double-space line breaks
 [*.md]
 trim_trailing_whitespace = false
+
+# ============================================================================
+# YAML
+# ============================================================================
+
+[*.{yml,yaml}]
+indent_size = 2

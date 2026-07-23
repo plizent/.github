@@ -40,6 +40,7 @@ This repository serves as the central source for GitHub organization standards u
 ├── .gitattributes               # Configures Git behavior, text normalization, and merge settings.
 ├── .gitignore                   # Specifies files and directories that Git should ignore.
 ├── CODE_OF_CONDUCT.md           # Defines community standards and expected behavior.
+├── CODEOWNERS                   # Defines the default owners responsible for reviewing changes to files in this repository.
 ├── CONTRIBUTING.md              # Explains how to contribute and the development workflow.
 ├── GOVERNANCE.md                # Defines roles, responsibilities, and decision-making.
 ├── LICENSE                      # Specifies the project's licensing terms.
@@ -53,6 +54,7 @@ This repository serves as the central source for GitHub organization standards u
 | Document | Description |
 |----------|-------------|
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
+| [CODEOWNERS](CODEOWNERS) | Defines the default owners responsible for reviewing changes |
 | [CONTRIBUTING.md](CONTRIBUTING.md) | Contribution guidelines and development workflow |
 | [SECURITY.md](SECURITY.md) | Security policy and vulnerability reporting process |
 | [SUPPORT.md](SUPPORT.md) | Support channels and how to get help |

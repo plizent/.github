@@ -1,0 +1,20 @@
+# ============================================================================
+# CODEOWNERS
+# ============================================================================
+
+# This file defines the default code owners for the Plizent community health
+# repository.
+#
+# Code owners are automatically requested to review pull requests that modify
+# files they own. When branch protection requires code owner reviews, changes
+# cannot be merged until an owner approves them.
+#
+# For more information:
+# https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# ----------------------------------------------------------------------------
+# Default Owners
+# ----------------------------------------------------------------------------
+
+# Default owner for all files in this repository.
+* @feniltejani

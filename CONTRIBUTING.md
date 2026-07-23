@@ -169,7 +169,7 @@ release/v1.4.0
 
 <!-- This project follows the [Conventional Commits](https://www.conventionalcommits.org/) specification. -->
 
-Using a consistent commit message format helps us review changes, generate release notes, maintain the project history, and automate tasks such as versioning.
+Using a consistent commit message format helps us review changes, generate release notes, maintain the project history, and automate tasks such as versioning and `CHANGELOG.md` generation.
 
 ### Format
 

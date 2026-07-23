@@ -39,6 +39,7 @@ This repository serves as the central source for GitHub organization standards u
 ├── .editorconfig                # Defines consistent coding styles across editors and IDEs.
 ├── .gitattributes               # Configures Git behavior, text normalization, and merge settings.
 ├── .gitignore                   # Specifies files and directories that Git should ignore.
+├── CHANGELOG.md                 # Records notable changes made to the repository across releases.
 ├── CITATION.cff                 # Provides citation metadata for GitHub and academic software citation tools.
 ├── CODE_OF_CONDUCT.md           # Defines community standards and expected behavior.
 ├── CODEOWNERS                   # Defines the default owners responsible for reviewing changes to files in this repository.
@@ -55,6 +56,7 @@ This repository serves as the central source for GitHub organization standards u
 
 | Document | Description |
 |----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Records notable changes made to the repository across releases |
 | [CITATION.cff](CITATION.cff) | Community standardsProvides citation metadata for GitHub and academic software citation tools |
 | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) | Community standards |
 | [CODEOWNERS](CODEOWNERS) | Defines the default owners responsible for reviewing changes |

@@ -1,0 +1,31 @@
+name: Update Citation Metadata
+
+on:
+  release:
+    types: [ published ]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Release version tag (e.g. 1.1.0)'
+        required: true
+        default: '1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  update-citation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run Citation Update Script
+        run: |
+          VERSION="${{ github.event.release.tag_name || github.event.inputs.version }}"
+          python scripts/ci/update-citation.py --version "$VERSION"

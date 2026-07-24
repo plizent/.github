@@ -1,0 +1,33 @@
+name: Auto Generate Release Changelog
+
+on:
+  release:
+    types: [ published ]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Release Tag (e.g. v1.1.0)'
+        required: true
+        default: 'v1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  changelog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run Changelog Generator Script
+        run: |
+          TAG="${{ github.event.release.tag_name || github.event.inputs.tag }}"
+          python scripts/ci/generate-changelog.py --tag "$TAG"

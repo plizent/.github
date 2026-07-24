@@ -1,12 +1,32 @@
-## Hi there 👋
+# Welcome to Plizent 👋
 
-<!--
+<p align="center">
+  <strong>Open Source Tools, Frameworks, and Infrastructure</strong>
+</p>
 
-**Here are some ideas to get you started:**
+---
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+### 🚀 About Plizent
+
+Plizent is an open-source organization dedicated to building clean, secure, and reliable software infrastructure, developer tools, and community-driven projects.
+
+- 📜 **Governance**: Open, transparent decision-making defined in our [GOVERNANCE.md](https://github.com/plizent/.github/blob/main/GOVERNANCE.md).
+- 🤝 **Community**: Safe and inclusive environment guided by our [Code of Conduct](https://github.com/plizent/.github/blob/main/CODE_OF_CONDUCT.md).
+- 🛠️ **Automation**: Local-first, self-owned automation policies adhering to our [Automation Principles](https://github.com/plizent/.github/blob/main/automation-principles.md).
+
+---
+
+### 📚 Getting Involved
+
+We welcome contributions from developers, technical writers, and open-source enthusiasts!
+
+- **Contributing**: Check out our [Contribution Guidelines](https://github.com/plizent/.github/blob/main/CONTRIBUTING.md) to get started.
+- **Reporting Issues**: Use our structured [Issue Forms](https://github.com/plizent/.github/issues/new/choose) to submit bug reports or feature requests.
+- **Security**: Report security vulnerabilities safely following our [Security Policy](https://github.com/plizent/.github/blob/main/SECURITY.md).
+- **Support**: Reach out via our [Support Channels](https://github.com/plizent/.github/blob/main/SUPPORT.md).
+
+---
+
+<p align="center">
+  Built with ❤️ by the <strong>Plizent Foundation</strong>
+</p>

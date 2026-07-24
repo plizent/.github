@@ -1,0 +1,47 @@
+name: Sync Health Files
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"     # Weekly Monday 03:00 UTC
+  workflow_dispatch:
+    inputs:
+      target_repo:
+        description: 'Target repository (e.g. plizent/sample-repo)'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Mint installation token
+        id: auth
+        env:
+          PLIZENT_APP_ID: ${{ secrets.PLIZENT_APP_ID }}
+          PLIZENT_APP_PRIVATE_KEY: ${{ secrets.PLIZENT_APP_PRIVATE_KEY }}
+          PLIZENT_APP_INSTALLATION_ID: ${{ secrets.PLIZENT_APP_INSTALLATION_ID }}
+        run: |
+          chmod +x ./scripts/ci/lib/github-app-auth.sh
+          chmod +x ./scripts/ci/sync-health-files.sh
+          if [ -n "${PLIZENT_APP_ID:-}" ]; then
+            echo "token=$(./scripts/ci/lib/github-app-auth.sh)" >> "$GITHUB_OUTPUT"
+          else
+            echo "token=${{ secrets.GITHUB_TOKEN }}" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Run sync script
+        env:
+          GH_TOKEN: ${{ steps.auth.outputs.token }}
+        run: |
+          TARGET="${{ github.event.inputs.target_repo }}"
+          if [ -n "$TARGET" ]; then
+            ./scripts/ci/sync-health-files.sh --target-repo "$TARGET"
+          else
+            ./scripts/ci/sync-health-files.sh
+          fi
